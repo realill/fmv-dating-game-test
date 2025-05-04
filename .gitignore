@@ -1,0 +1,67 @@
+# RenPy specific
+*.rpyc
+*.rpyb
+*.rpymc
+*.pyc
+*.pyo
+game/saves/
+game/cache/
+log.txt
+errors.txt
+traceback.txt
+**/tmp/
+**/temp/
+
+# RenPy game distribution
+game/cache/
+game/saves/
+*.rpa
+*.rpymc
+*.save
+*-dists/
+
+# Log files
+log.txt
+errors.txt
+traceback.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg 
